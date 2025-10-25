@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Drone Food Delivery</title>
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Leaflet Map Links -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+</head>
+<body>
+  <header>
+    <h1>SkyEats Drone Delivery 🚁</h1>
+    <p>Order food from your favorite café and get it delivered by drone!</p>
+  </header>
+
+  <main>
+    <form id="orderForm">
+      <h2>Place Your Order</h2>
+      <label>Name:</label>
+      <input type="text" id="name" required>
+
+      <label>Address:</label>
+      <input type="text" id="address" required>
+
+      <label>Food Item:</label>
+      <input type="text" id="food" required>
+
+      <button type="submit">Order Now</button>
+    </form>
+
+    <div id="status" class="hidden">
+      <p>🚁 Drone is on the way...</p>
+      <div id="map"></div>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
