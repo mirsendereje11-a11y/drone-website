@@ -16,7 +16,6 @@ It’s made with **HTML, CSS, and JavaScript**, and hosted for free using **GitH
 
 ## 🌐 Live Website
 🔗 Visit the live site: [https://mirsendereje.github.io/drone-delivery/](https://yourusername.github.io/repository-name/)  
-*(Replace `yourusername` and `repository-name` with yours.)*
 
 ---
 ## 🛠️ Built With
